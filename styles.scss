@@ -12,3 +12,10 @@
 @import './assets/scss/base/_base'; 
 @import './assets/scss/base/_reset'; 
 @import './assets/scss/base/_typography';
+
+// Layout
+@import './assets/scss/layout/_header';
+@import './assets/scss/layout/_footer';
+@import './assets/scss/layout/_menu';
+@import './assets/scss/layout/_forms';
+@import './assets/scss/layout/_tables';
