@@ -9,3 +9,8 @@
 ## Layout
  + The `layout` folder contains everything that takes part in laying out the application
  + This folder could have stylesheets for the main parts of the application
+ 
+## Components
+ + The `components` folder is more focused on widgets
+ + It contains all kind of specific modules like a slider, a loader, a widget, and basically anything along those lines
+ + There are usually a lot of files in components since the whole application should be mostly composed of tiny modules
