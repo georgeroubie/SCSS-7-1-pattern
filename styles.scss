@@ -8,6 +8,9 @@
 @import './assets/scss/abstracts/_classes';
 @import './assets/scss/abstracts/_animations'; 
 
+// Vendors
+@import './assets/scss/vendors/example-library';
+
 // Base
 @import './assets/scss/base/_base'; 
 @import './assets/scss/base/_reset'; 
