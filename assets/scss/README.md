@@ -18,5 +18,9 @@
  + It contains all kind of specific modules like a slider, a loader, a widget, and basically anything along those lines
  + There are usually a lot of files in components since the whole application should be mostly composed of tiny modules
 
+## Vendors Extensions
+ + If you have to override or extend a section of any vendor, you need to use the `vendors-extensions` folder
+ + Inside this folder the files must be named exactly as the vendors they overwrite
+
 ## Pages
  + If you have page-specific styles, it is better to put them in a `pages` folder, in a file named after the page

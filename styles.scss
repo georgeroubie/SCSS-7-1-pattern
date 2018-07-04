@@ -30,6 +30,9 @@
 @import './assets/scss/components/_loader';
 @import './assets/scss/components/_modals';
 
+// Vendors Extensions
+@import './assets/scss/vendors-extensions/example-library';
+
 // Pages
 @import './assets/scss/pages/_home';
 @import './assets/scss/pages/_contact';
