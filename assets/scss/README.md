@@ -24,3 +24,7 @@
 
 ## Pages
  + If you have page-specific styles, it is better to put them in a `pages` folder, in a file named after the page
+
+## Themes
+ + On large applications, it is not unusual to have different themes based on a state
+ + Add inside the `themes` folder a different file for every state
