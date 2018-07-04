@@ -1,14 +1,14 @@
 // CSS Style Guide: https://github.com/georgeroubie/CSS-Style-Guide#readme
 
 // Abstracts
-@import './abstracts/_variables';
-@import './abstracts/_colors';
-@import './abstracts/_mixins';
-@import './abstracts/_placeholders';
-@import './abstracts/_classes';
-@import './abstracts/_animations';
+@import './assets/scss/abstracts/_variables';
+@import './assets/scss/abstracts/_colors';
+@import './assets/scss/abstracts/_mixins';
+@import './assets/scss/abstracts/_placeholders';
+@import './assets/scss/abstracts/_classes';
+@import './assets/scss/abstracts/_animations'; 
 
 // Base
-@import './base/_base'; 
-@import './base/_reset'; 
-@import './base/_typography';
+@import './assets/scss/base/_base'; 
+@import './assets/scss/base/_reset'; 
+@import './assets/scss/base/_typography';
