@@ -1,3 +1,9 @@
+# File names
+ + Start your file name with an underscore
+ + Use hyphens for your file name: `_user-profile.scss` 
+
+# File architecture 
+
 ## Abstracts
  + The `abstracts` folder gathers all Sass tools and helpers used across the project
  + Every global variable, function, mixin and placeholder should be put in here
