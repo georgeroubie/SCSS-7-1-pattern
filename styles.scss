@@ -32,12 +32,12 @@
 @import './assets/scss/components/_modal';
 
 // Vendors Extensions
-@import './assets/scss/vendors-extensions/example-library';
+@import './assets/scss/vendors-extensions/_example-library';
 
 // Pages
 @import './assets/scss/pages/_home';
 @import './assets/scss/pages/_contact';
-@import './assets/scss/pages/_userProfile';
+@import './assets/scss/pages/_user-profile';
 
 // Themes
 @import './assets/scss/themes/_admin';
