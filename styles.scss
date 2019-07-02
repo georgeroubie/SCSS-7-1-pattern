@@ -2,43 +2,43 @@
 // Architecture: https://github.com/georgeroubie/SCSS-7-1-pattern
 
 // Abstracts
-@import './assets/scss/abstracts/_variables';
-@import './assets/scss/abstracts/_colors';
-@import './assets/scss/abstracts/_mixins';
-@import './assets/scss/abstracts/_placeholders';
-@import './assets/scss/abstracts/_classes';
-@import './assets/scss/abstracts/_animations'; 
+@import './assets/scss/abstracts/variables';
+@import './assets/scss/abstracts/colors';
+@import './assets/scss/abstracts/mixins';
+@import './assets/scss/abstracts/placeholders';
+@import './assets/scss/abstracts/classes';
+@import './assets/scss/abstracts/animations'; 
 
 // Vendors
 @import './assets/scss/vendors/example-library';
 
 // Base
-@import './assets/scss/base/_base'; 
-@import './assets/scss/base/_reset'; 
-@import './assets/scss/base/_typography';
+@import './assets/scss/base/base'; 
+@import './assets/scss/base/reset'; 
+@import './assets/scss/base/typography';
 
 // Layout
-@import './assets/scss/layout/_grid';
-@import './assets/scss/layout/_header';
-@import './assets/scss/layout/_footer';
-@import './assets/scss/layout/_menu';
-@import './assets/scss/layout/_forms';
-@import './assets/scss/layout/_tables';
+@import './assets/scss/layout/grid';
+@import './assets/scss/layout/header';
+@import './assets/scss/layout/footer';
+@import './assets/scss/layout/menu';
+@import './assets/scss/layout/forms';
+@import './assets/scss/layout/tables';
 
 // Components
-@import './assets/scss/components/_buttons';
-@import './assets/scss/components/_dropdown';
-@import './assets/scss/components/_loader';
-@import './assets/scss/components/_modal';
+@import './assets/scss/components/buttons';
+@import './assets/scss/components/dropdown';
+@import './assets/scss/components/loader';
+@import './assets/scss/components/modal';
 
 // Vendors Extensions
-@import './assets/scss/vendors-extensions/_example-library';
+@import './assets/scss/vendors-extensions/example-library';
 
 // Pages
-@import './assets/scss/pages/_home';
-@import './assets/scss/pages/_contact';
-@import './assets/scss/pages/_user-profile';
+@import './assets/scss/pages/home';
+@import './assets/scss/pages/contact';
+@import './assets/scss/pages/user-profile';
 
 // Themes
-@import './assets/scss/themes/_admin';
-@import './assets/scss/themes/_authenticated';
+@import './assets/scss/themes/admin';
+@import './assets/scss/themes/authenticated';
