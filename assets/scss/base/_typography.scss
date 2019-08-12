@@ -1,9 +1,12 @@
 // Typography rules
 
-// Example
-.text-error {
-    color: $theme-error;
+// Root elements
+:root {
+    --font-family-sans-serif: 'Open Sans', sans-serif;
 }
-.text-maincolor {
-    color: $theme-text;
+html,
+body {
+	font-family: var(--font-family-sans-serif) !important;
+	color: $theme-text;
+	font-weight: normal;
 }

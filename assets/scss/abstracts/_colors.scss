@@ -1,15 +1,18 @@
-// Color Variables | Named with this: http://chir.ag/projects/name-that-color
-
-// Example
 // Colors
-$white: #ffffff;
+
+// SCSS Color Variables | Named with this: http://chir.ag/projects/name-that-color
+$white: #fff;
 $pickledBluewood: #2f404f;
-$orient: #005B72;
-$regentGray: #8e969d;
 $persianRed: #d32f2f;
-// Theme colors
-$theme-background: $white;
-$theme-text: $pickledBluewood;
-$theme-button: $orient;
-$theme-inactive: $regentGray;
-$theme-error: $persianRed;
+
+// Theme CSS Color Variables
+:root {
+    --theme-text:#{$pickledBluewood};
+    --theme-background:#{$white};
+    --theme-error:#{$persianRed};
+}
+
+// Theme SCSS Color Variables
+$theme-text: var(--theme-text);
+$theme-background: var(--theme-background);
+$theme-error: var(--theme-error);
