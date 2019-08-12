@@ -17,28 +17,28 @@
 @import './assets/scss/base/reset'; 
 @import './assets/scss/base/typography';
 
-// Layout
+// Layout (alphabetical order)
+@import './assets/scss/layout/footer';
+@import './assets/scss/layout/forms';
 @import './assets/scss/layout/grid';
 @import './assets/scss/layout/header';
-@import './assets/scss/layout/footer';
 @import './assets/scss/layout/menu';
-@import './assets/scss/layout/forms';
 @import './assets/scss/layout/tables';
 
-// Components
+// Components (alphabetical order)
 @import './assets/scss/components/buttons';
 @import './assets/scss/components/dropdown';
 @import './assets/scss/components/loader';
 @import './assets/scss/components/modal';
 
-// Vendors Extensions
+// Vendors Extensions (alphabetical order)
 @import './assets/scss/vendors-extensions/example-library';
 
-// Pages
-@import './assets/scss/pages/home';
+// Pages (alphabetical order)
 @import './assets/scss/pages/contact';
+@import './assets/scss/pages/home';
 @import './assets/scss/pages/user-profile';
 
-// Themes
+// Themes (alphabetical order)
 @import './assets/scss/themes/admin';
 @import './assets/scss/themes/authenticated';
