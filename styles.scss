@@ -1,5 +1,5 @@
-// Style Guide: https://github.com/georgeroubie/CSS-Style-Guide#readme
-// Architecture: https://github.com/georgeroubie/SCSS-7-1-pattern
+// Style Guide: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/README.md
+// Style Lint: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/.stylelintrc
 
 // Abstracts
 @import './assets/scss/abstracts/variables';
@@ -7,14 +7,14 @@
 @import './assets/scss/abstracts/mixins';
 @import './assets/scss/abstracts/placeholders';
 @import './assets/scss/abstracts/classes';
-@import './assets/scss/abstracts/animations'; 
+@import './assets/scss/abstracts/animations';
 
 // Vendors
 @import './assets/scss/vendors/example-library';
 
 // Base
-@import './assets/scss/base/base'; 
-@import './assets/scss/base/reset'; 
+@import './assets/scss/base/base';
+@import './assets/scss/base/reset';
 @import './assets/scss/base/typography';
 
 // Layout (alphabetical order)

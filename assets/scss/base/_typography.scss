@@ -2,11 +2,12 @@
 
 // Root elements
 :root {
-    --font-family-sans-serif: 'Open Sans', sans-serif;
+	--font-family-sans-serif: 'Open Sans', sans-serif;
 }
+
 html,
 body {
 	font-family: var(--font-family-sans-serif) !important;
 	color: $theme-text;
-	font-weight: normal;
+	font-weight: 400;
 }

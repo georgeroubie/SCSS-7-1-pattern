@@ -2,15 +2,15 @@
 
 // Rotate an element 360deg
 .rotate-me {
-    animation: rotating 1s linear infinite;
+	animation: rotating 1s linear infinite;
 }
 
 @keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
+	from {
+		transform: rotate(0deg);
+	}
 
-    to {
-        transform: rotate(360deg);
-    }
+	to {
+		transform: rotate(360deg);
+	}
 }
